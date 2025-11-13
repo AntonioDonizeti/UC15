@@ -1,0 +1,17 @@
+body{
+    background-color: #ffffff;
+}  /* Fundo branco */
+h1{
+    background-color: #688EA6;
+    width: 400px;
+}  /* Fundo do título h1 */
+h2 {
+    background-color: #B6DBF2;
+    width: 400px;
+} /* Fundo dos títulos h2 */
+#texto {
+    color:violet;
+} /* Cor do texto violet */
+#azulescuro {
+    color: #0A0B0D;
+} /* Cor do texto escuro */

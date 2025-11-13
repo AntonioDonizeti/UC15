@@ -1,73 +1,54 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declara documento HTML5 -->
 <html lang ="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name ="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Document</title>
+<meta charset="UTF-8"/> <!-- Define codificação UTF-8 -->
+<meta name ="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Responsivo para dispositivos móveis -->
+<title>Document</title> <!-- Título da página -->
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer> </script>
 </head>
 <body>
 
-<style>
-    body{background-color: #ffffff;}
-    h1{background-color: #688EA6;}
-    h2 {background-color: #B6DBF2;}
-    #texto {color:violet;}
-    #azulescuro {color: #0A0B0D;}
-</style>
- 
 
-<h1>Portfólio</h1>
- 
+<h1>Portfólio</h1> <!-- Título principal -->
 
-<h2 id="texto">Eu sou Antonio</h2>
- 
+<h2 id="texto">Eu sou Antonio</h2> <!-- Subtítulo com id texto -->
 
 <p>
     Profissional de TI | Suporte Help Desk | Infraestrutura | Active Directory |</br> 
     Conhecimentos em Programação e Banco de Dados | Manutenção e Montagem de Computadores
-</p>
+</p> <!-- Parágrafo com descrição -->
 
-<h2 id = "azulescuro"> 🛠️ Skills Técnicas </h2>
+<h2 id = "azulescuro"> 🛠️ Skills Técnicas </h2> <!-- Subtítulo skills -->
+
 <p> 
     🪜Portugol </br>
-    🐍 Python   </br>  
-    🗄️ SQL      </br>
+    🐍 Python </br>
+    🗄️ SQL </br>
     📊 Power BI </br>
     🖥️ Suporte Técnico
-</p>
+</p> <!-- Parágrafo com lista de habilidades -->
 
-<h2 id = "azulescuro"> 🎯 Objetivos </h2>
+<h2 id = "azulescuro"> 🎯 Objetivos </h2> <!-- Subtítulo objetivos -->
+
 <p>
     <ul>
     <li>Aprimorar minhas habilidades em programação e lógica</li>
     <li>Praticar resolução de problemas com código</li>
     <li>Aprender a estruturar e gerenciar bancos de dados relacionais</li>
     <li>Evoluir profissionalmente na área de tecnologia e suporte</li>
-    </ul>  
+    </ul>  
 </p>
 
 <h2 id = "azulescuro"> 📚 O que estou estudando agora </h2>
+
 <p>
     <ul>
     <li>Algoritmos, lógica e estrutura de dados em Portugol</li>
     <li>Sintaxe e scripts simples em Python</li>
     <li>Consultas básicas e manipulação de dados em SQL</li>
-    </ul>  
+    </ul>  
 </p>
 
-
-
-<script>
-
-    function mudar(){
-        
-        if (texto.style.color == "violet")
-            texto.style.color = "blue";
-        else 
-            texto.style.color = "violet";
-    }
-   
-    texto.addEventListener("click", mudar);
-</script>
 </body>
 </html>
