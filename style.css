@@ -1,17 +1,65 @@
+/* Fundo branco */
 body{
-    background-color: #ffffff;
-}  /* Fundo branco */
+    /* Plano de fundo em degrade radial azul */
+    background: radial-gradient(circle, #3778a1, #3c84b1, #4190c1, #479cd2, #4ca9e3);
+}
+
+/* Fundo do título h1 */  
 h1{
-    background-color: #688EA6;
-    width: 400px;
-}  /* Fundo do título h1 */
+    background-color: #688EA6;        /* Cor de fundo do h1 */
+    width: 400px;                     /* Define a largura do h1 */
+    margin: 40px auto;                /* Espaçamento acima/abaixo e centraliza horizontalmente */
+}  
+
+/* Fundo dos títulos h2 */
 h2 {
-    background-color: #B6DBF2;
-    width: 400px;
-} /* Fundo dos títulos h2 */
+    background-color: #B6DBF2;        /* Cor de fundo do h2 */
+    width: 400px;                     /* Define a largura do h2 */
+    margin: 40px auto;                /* Espaçamento acima/abaixo e centraliza horizontalmente */
+}
+
+#titulo{
+    text-align: center;                 /* Centraliza o texto do elemento com id titulo */
+    color: #0A0B0D;                   /* Define a cor do texto em azul escuro */
+}
+
+/* Cor do id texto  */
 #texto {
-    color:violet;
-} /* Cor do texto violet */
-#azulescuro {
-    color: #0A0B0D;
-} /* Cor do texto escuro */
+    color:violet;                     /* Define a cor do texto em violeta */
+    text-align: center;               /* Centraliza o texto */
+} 
+
+.centro{
+    text-align: center;               /* Centraliza qualquer elemento com essa classe */
+}
+
+.centroLista{
+    text-align: center;               /* Centraliza texto das listas */
+    list-style-position: inside;      /* Faz as bolinhas ficarem para dentro do elemento */
+    padding-left: 40px;               /* Espaçamento à esquerda da lista */
+}
+
+/* Definindo caracteristica da imagem */
+img{
+    display: block;                   /* Faz a imagem se comportar como bloco */
+    margin: 30px;                     /* Margem geral */
+    width: 800px;                     /* Largura fixa da imagem */
+    height: 250px;                    /* Altura fixa da imagem */
+    margin: 40px auto;                /* Margem acima/abaixo + centraliza horizontalmente */
+    border-radius: 12px;              /* Bordas arredondadas */
+    transition:                       /* Suaviza as transições de efeitos */
+        transform 200ms ease,         /* Suaviza o zoom ao expandir */
+        box-shadow 200ms ease,        /* Suaviza a sombra */
+        filter 200ms ease;            /* Suaviza mudanças de filtro (ex: brilho) */
+    will-change: transform;           /* Melhora desempenho do zoom indicando ao navegador a intenção de animar */
+}
+
+img:hover {
+  border: 5px solid #8c39da;          /* Borda roxa no hover */
+  border-radius: 10px;                /* Bordas arredondadas no hover */
+}
+
+img.is-expanded{
+    transform: scale(1.05);           /* Aumenta a imagem em 5% no modo expandido */
+    box-shadow: 0 16px 44px rgba(5, 1, 248, 0.25); /* Sombra azul escuro na imagem expandida */
+}

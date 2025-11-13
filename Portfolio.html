@@ -1,54 +1,76 @@
 <!DOCTYPE html> <!-- Declara documento HTML5 -->
-<html lang ="en">
+<html lang="en">
 <head>
-<meta charset="UTF-8"/> <!-- Define codificação UTF-8 -->
-<meta name ="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Responsivo para dispositivos móveis -->
-<title>Document</title> <!-- Título da página -->
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer> </script>
+    <!-- Define codificação UTF-8 -->
+    <meta charset="UTF-8"/>
+
+    <!-- Responsivo para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Título da página -->
+    <title>Rigby Cat</title> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
+    <!-- Título principal -->
+    <h1 id="titulo">Portfólio</h1> 
 
-<h1>Portfólio</h1> <!-- Título principal -->
+    <!-- Subtítulo com id texto -->
+    <h2 id="texto">Eu sou Antonio</h2> 
 
-<h2 id="texto">Eu sou Antonio</h2> <!-- Subtítulo com id texto -->
+    <!-- Parágrafo com descrição -->   
+    <p class="centro">
+        Profissional de TI | Suporte Help Desk | Infraestrutura | Active Directory |<br> 
+        Conhecimentos em Programação e Banco de Dados | Manutenção e Montagem de Computadores
+    </p>
 
-<p>
-    Profissional de TI | Suporte Help Desk | Infraestrutura | Active Directory |</br> 
-    Conhecimentos em Programação e Banco de Dados | Manutenção e Montagem de Computadores
-</p> <!-- Parágrafo com descrição -->
+    <!-- Imagem Read Me GitHub -->
+    <!-- Exibe uma imagem do ReadMe (exemplo) -->
+    <!-- ID = "readme" usado para manipulação via CSS ou JS -->
+    <!-- src = "ReadMe.png" Caminho da imagem -->
+    <!-- alt = Texto alternativo para acessibilidade -->
+    <!-- loading = "lazy" - Carregamento otimizado para performance -->       
+    <img
+        id="readme"
+        src="ReadMe.png"
+        alt="Informações tirada do ReadMe GitHub"
+        loading="lazy"
+    />
 
-<h2 id = "azulescuro"> 🛠️ Skills Técnicas </h2> <!-- Subtítulo skills -->
+    <!-- Subtítulo skills -->
+    <h2 id="titulo"> 🛠️ Skills Técnicas </h2> 
 
-<p> 
-    🪜Portugol </br>
-    🐍 Python </br>
-    🗄️ SQL </br>
-    📊 Power BI </br>
-    🖥️ Suporte Técnico
-</p> <!-- Parágrafo com lista de habilidades -->
+    <!-- Parágrafo com lista de habilidades -->
+    <p class="centro"> 
+        🪜Portugol<br>
+        🐍 Python<br>
+        🗄️ SQL<br>
+        📊 Power BI<br>
+        🖥️ Suporte Técnico
+    </p>
 
-<h2 id = "azulescuro"> 🎯 Objetivos </h2> <!-- Subtítulo objetivos -->
+    <!-- Subtítulo objetivos -->
+    <h2 id="titulo"> 🎯 Objetivos </h2> 
 
-<p>
-    <ul>
-    <li>Aprimorar minhas habilidades em programação e lógica</li>
-    <li>Praticar resolução de problemas com código</li>
-    <li>Aprender a estruturar e gerenciar bancos de dados relacionais</li>
-    <li>Evoluir profissionalmente na área de tecnologia e suporte</li>
-    </ul>  
-</p>
+    <!-- Lista de Objetivos -->
+    <ul class="centroLista">
+        <li>Aprimorar minhas habilidades em programação e lógica</li>
+        <li>Praticar resolução de problemas com código</li>
+        <li>Aprender a estruturar e gerenciar bancos de dados relacionais</li>
+        <li>Evoluir profissionalmente na área de tecnologia e suporte</li>
+    </ul>
 
-<h2 id = "azulescuro"> 📚 O que estou estudando agora </h2>
+    <!-- Subtítulo Estudando Atualmente -->
+    <h2 id="titulo"> 📚 O que estou estudando agora </h2>
 
-<p>
-    <ul>
-    <li>Algoritmos, lógica e estrutura de dados em Portugol</li>
-    <li>Sintaxe e scripts simples em Python</li>
-    <li>Consultas básicas e manipulação de dados em SQL</li>
-    </ul>  
-</p>
+    <!-- Lista de estudos -->
+    <ul class="centroLista">
+        <li>Algoritmos, lógica e estrutura de dados em Portugol</li>
+        <li>Sintaxe e scripts simples em Python</li>
+        <li>Consultas básicas e manipulação de dados em SQL</li>
+    </ul>
 
 </body>
 </html>
